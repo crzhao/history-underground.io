@@ -3,18 +3,6 @@ $('#myModal').on('shown.bs.modal', function () {
   $('#myInput').focus()
 })/
 
-/*** Animation of the arrow ***/
-// var infiniteLoop = anime({
-//   targets: '#infiniteLoop .el',
-//   translateX: 250,
-//   loop: true
-// });
-//
-
-$(document).ready(function() {
-  $( ".pic" ).addClass('animated fadeInUp');
-});
-
 
 /*** Flip of creatures ***/
 $(document).ready(function() {
@@ -26,6 +14,13 @@ $(document).ready(function() {
       $(this).removeClass("animated");
   });
 
+$("#arrowUp").click(function(){
+    var href=$(this).attr("href");
+    var top=$(href).offset().top;
+    $(this).blur();
+    $("body,html").animate({scrollTop:top},500);
+    return false;
+})    
   // $('.image').hover(
   //   function() {
   //     $(this).addClass('animated flip');
