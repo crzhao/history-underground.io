@@ -79,7 +79,7 @@ img {
 
 .image {
   text-align: center;
-    
+
 }
 
 /* header */
@@ -95,6 +95,7 @@ div.hero {
   width: 40%;
   top: 230px;
   left: 30%;
+  z-index: 9999;
 }
 
 div.title {
@@ -119,6 +120,7 @@ header div.pic {
 
 .section {
   padding: 100px 0;
+  z-index: 9999;
 }
 
 .section h2 {

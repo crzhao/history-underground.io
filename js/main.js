@@ -14,13 +14,14 @@ $(document).ready(function() {
       $(this).removeClass("animated");
   });
 
-$("#arrowUp").click(function(){
-    var href=$(this).attr("href");
-    var top=$(href).offset().top;
-    $(this).blur();
-    $("body,html").animate({scrollTop:top},500);
-    return false;
-})    
+  $("#arrowUp").click(function(){
+    $('html, body').animate({scrollTop: 0}, 1000);
+  })
+
+  $("#arrowDown").click(function(){
+    $('html, body').animate({scrollTop: $("#section1").offset().top}, 500);
+  })
+
   // $('.image').hover(
   //   function() {
   //     $(this).addClass('animated flip');
