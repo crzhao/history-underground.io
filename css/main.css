@@ -93,7 +93,7 @@ img {
 div.hero {
   position: absolute;
   width: 40%;
-  top: 330px;
+  top: 230px;
   left: 30%;
 }
 
@@ -120,6 +120,9 @@ header div.pic {
 .section {
   padding: 100px 0;
 }
+
+.section .image { 
+ }
 
 .section h2 {
   color: #fff;
@@ -234,6 +237,13 @@ header div.pic {
 .affix {
   top: 20px;
   z-index: 9999 !important;
+}
+
+.sidebar {
+  background-color: rgba(248, 248, 248, .8);
+  border-top-right-radius: 6px;
+  border-bottom-right-radius: 6px;
+  padding: 10px 10px;
 }
 
 /* footer */
