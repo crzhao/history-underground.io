@@ -121,11 +121,9 @@ header div.pic {
   padding: 100px 0;
 }
 
-.section .image { 
- }
-
 .section h2 {
   color: #fff;
+  margin-top: 50px;
 }
 
 .section h3 {
@@ -140,13 +138,13 @@ header div.pic {
 }
 
 .section p {
-  margin-top: 20px;
+  margin-top: 50px;
   font-size: 1.2em;
   color: #fff;
 }
 
 .section img {
-  margin-top: 20px;
+  max-width: 250px;
 }
 
 .section0 {
