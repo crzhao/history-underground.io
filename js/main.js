@@ -24,13 +24,16 @@ $(document).ready(function() {
     $('html, body').animate({scrollTop: $("#section1").offset().top}, 500);
   })
     
+/***
+      
 for (var i=1, len=12; i<len; i++){ 
   $("#nav" + i.to_string).click(function(){
     $('html, body').animate({scrollTop: $("#section" + i.to_string).offset().top}, 500);
   });
 }   
+***/ 
     
-/*** Scrolling effect of the top arrow ***  
+/*** Scrolling effect of the top arrow ***/  
   $("#nav1").click(function(){
     $('html, body').animate({scrollTop: $("#section1").offset().top}, 500);
   })
