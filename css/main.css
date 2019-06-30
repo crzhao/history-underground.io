@@ -207,25 +207,15 @@ header div.pic {
 
 /* navigation */
 
-.affix {
-  top: 20px;
-  z-index: 9999 !important;
+.navbar-nav {
+  float: none;
+  text-align:center;
 }
 
-.sidebar {
-  background-color: rgba(248, 248, 248, .8);
-  border-top-right-radius: 6px;
-  border-bottom-right-radius: 6px;
-  padding: 10px 10px;
-}
-
-.period a {
-  font-weight: 700;
-  color: #999;
-}
-
-.time a {
-  font-weight: 350;
+ul.nav.navbar-nav  li {
+    float:none;
+    display: inline-block;
+    margin: 0em;
 }
 
 /* footer */
